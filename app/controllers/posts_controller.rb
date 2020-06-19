@@ -8,4 +8,9 @@ before_action :authenticate_user
     def create
         @post = Post.new
     end
+
+    private
+    def post_params
+        params.require(:post).permit(:post_body)
+    end
 end

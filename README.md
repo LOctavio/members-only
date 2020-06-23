@@ -1,24 +1,43 @@
-# README
+# Members Only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> We build this project to learn how to give user based access for the different parts of the application using devise gem.
 
-Things you may want to cover:
+The devise gem was used for auth and registration of the users.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby on Rails
+- SQlite3
+- Ruby
 
-* Configuration
+## Authors
 
-* Database creation
+👤 **Luis Octavio Ramirez Cruz**
 
-* Database initialization
+- Github: [@LOctavio](https://github.com/LOctavio)
+- Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
+- Linkedin: [luis-octavio-ramirez-cruz](https://www.linkedin.com/in/luis-octavio-ramirez-cruz)
 
-* How to run the test suite
+👤 **Nurislam Abd**
 
-* Services (job queues, cache servers, search engines, etc.)
+- Github: [@nurislam-ab](https://github.com/nurislam-ab/ )
+- Twitter: [@NurislamAb](https://twitter.com/NurislamAb)
+- Linkedin: [nurislam-ab](https://www.linkedin.com/in/nurislam-ab/)
 
-* Deployment instructions
+## 🤝 Contributing
 
-* ...
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/LOctavio/members-only/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.

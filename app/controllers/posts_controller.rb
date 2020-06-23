@@ -9,7 +9,7 @@ class PostsController < ApplicationController
     def create
         @post = current_user.posts.build(post_params)
 
-        redirect_to do |format|
+        respond_to do |format|
             if @post.save
                 format.html { redirect_to root_path, notice: 'Post was successfully created.' }
                 format.json { render :show, status: :created, location: @post }

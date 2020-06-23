@@ -1,6 +1,6 @@
 <h1>New post</h1>
 
-<%= form_for @post do |f| %>
-<%= f.text_area :post_body %>
-<%= f.submit "Save" %>
+<%= form_with(model: @post, local: true) do |f| %>
+    <%= f.text_area :post_body %>
+    <%= f.submit "Save" %>
 <% end %>
